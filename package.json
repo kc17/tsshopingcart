@@ -1,0 +1,22 @@
+{
+  "name": "tsshoppingcart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.config.js --devtool eval-source-map --progress --colors --content-base dist",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "ts-loader": "^3.1.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.1"
+  }
+}
